@@ -206,6 +206,39 @@ To https://github.com/MariaDash/Json.git
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-Note: Here I had a conflict between remote and local repository so I first needed to pull the remote version and after this I can push the local version to the remote repo.
-## 12 Create preferences.json file.
+Note: Here I had a conflict between remote and local repository so I first needed to pull the remote version (and add a commit message) and after this I can push the local version to the remote repo.
+## 12. Create preferences.json file.
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ cat > preferences.json
 
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ ls
+README.md  new.json  preferences.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
+## 13. In the preferences.json file, add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in JSON format.
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ vim preferences.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ cat preferences.json
+{
+
+  "favorite movie": "G.I. Jane" ,
+  "favorite tv show": "Friends",
+  "favorite food": " wok" ,
+  "favorite season of the year": "Winter",
+  "Country to travel": "Italy"
+
+
+}
+
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
