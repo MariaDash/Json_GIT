@@ -1,7 +1,8 @@
 # # Json Homework 1
-## 1. Create an external repository called JSON on Github site.
+1-3 done
+## 4. Create an external repository called JSON on Github site.
 I go to https://github.com/MariaDash, click "Repositories", click "New", make it Public, add README.md file, create repository.
-## 2. Clone repository to local PC
+## 5. Clone repository to local PC
 I go to repository page--> Code --> Local and copy its link. And here two options: 
 You can copy by HTTPS( unsecure without password) or SSH (need specific configuration and it is secure and always ask password).. I cpoy via HTTPS.
 On PC I go to my folder "Json", right click "Gitbash Here" and open a terminal Gitbash in this folder.
@@ -30,7 +31,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
 Because I have already another repository I must swith it. As you can see the repository is cloned to PC.
-## 3. Create new.json file in the local repo.
+## 6. Create new.json file in the local repo.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ vim new.json
@@ -59,7 +60,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 
 ```
-## 4  Add a file for tracking
+## 7.  Add a file for tracking
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git add new.json
@@ -78,7 +79,7 @@ Changes to be committed:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 5 Do commit it.
+## 8. Do commit it.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git commit -m "new.json creation"
@@ -108,7 +109,7 @@ Date:   Thu Apr 27 17:04:49 2023 +0300
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 6 Send the file to remote repository
+## 9. Send the file to remote repository
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
@@ -125,3 +126,86 @@ To https://github.com/MariaDash/Json.git
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
+## 10. Edit the content of the “new.json” file - write information about yourself (full name, age, number of pets, future desired salary). Everything is written in JSON format.
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ vim new.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ cat new.json
+{
+  "name": "Mariia",
+  "surname": "Dashkova",
+  "age" : 35,
+  "number of pets": 0,
+  "desired salary": 1500
+
+
+}
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
+## 11. Send the changes to remote repository
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git add new.json
+warning: in the working copy of 'new.json', LF will be replaced by CRLF the next time Git touches it
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git commit -m " changes in new.json"
+[main ac97e4f]  changes in new.json
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git push
+To https://github.com/MariaDash/Json.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MariaDash/Json.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 3.23 KiB | 67.00 KiB/s, done.
+From https://github.com/MariaDash/Json
+   a9fb950..f7174b7  main       -> origin/main
+Merge made by the 'ort' strategy.
+ README.md | 128 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 127 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 681 bytes | 340.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MariaDash/Json.git
+   f7174b7..ccae60e  main -> main
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
+Note: Here I had a conflict between remote and local repository so I first needed to pull the remote version and after this I can push the local version to the remote repo.
+## 12 Create preferences.json file.
+
