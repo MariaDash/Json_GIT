@@ -108,6 +108,7 @@ Date:   Thu Apr 27 17:04:49 2023 +0300
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ## 6 Send the file to remote repository
+
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git push
