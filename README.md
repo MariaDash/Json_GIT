@@ -242,3 +242,77 @@ $ cat preferences.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
+## 14. Create a file sklls.json add information about the skills that will be studied in the course in JSON format.
+
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ vim skills.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ cat skills.json
+{
+
+  "skills":
+  ["SQL", "Postman", "Git", "Terminal", "DevTools", "Jmeter", "Fiddler", "Charles Proxy", "ADB"]
+
+
+
+
+
+
+}
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
+## 15. Send 2 files at once to an external repository
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        preferences.json
+        skills.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git add .
+warning: in the working copy of 'preferences.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills.json', LF will be replaced by CRLF the next time Git touches it
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   preferences.json
+        new file:   skills.json
+
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git commit -m "two files"
+[main c612ced] two files
+ 2 files changed, 22 insertions(+)
+ create mode 100644 preferences.json
+ create mode 100644 skills.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
