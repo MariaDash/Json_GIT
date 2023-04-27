@@ -1,4 +1,4 @@
-#  Json Homework 1
+#  Json GIT Homework 1
 1-3 done
 ## 4. Create an external repository called JSON on Github site.
 I go to https://github.com/MariaDash, click "Repositories", click "New", make it Public, add README.md file, create repository.
