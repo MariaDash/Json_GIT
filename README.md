@@ -1,4 +1,4 @@
-# # Json Homework 1
+#  Json Homework 1
 1-3 done
 ## 4. Create an external repository called JSON on Github site.
 I go to https://github.com/MariaDash, click "Repositories", click "New", make it Public, add README.md file, create repository.
@@ -315,4 +315,55 @@ Your branch is ahead of 'origin/main' by 1 commit.
 nothing to commit, working tree clean
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 936 bytes | 468.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MariaDash/Json.git
+   d5b2111..b84acc9  main -> main
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
+```
+## 16. On the web interface, create a bug_report.json file.
+## 17. Make Commit changes (save) changes on the web interface.
+## 18. On the web interface, modify the bug_report.json file, add a bug report in JSON format.
+## 19. Make Commit changes (save) changes on the web interface.
+## 20. Synchronize external and local JSON repository
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.36 KiB | 81.00 KiB/s, done.
+From https://github.com/MariaDash/Json
+   b84acc9..407a8e0  main       -> origin/main
+Updating b84acc9..407a8e0
+Fast-forward
+ bug_report.json | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 bug_report.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ ls
+README.md  bug_report.json  new.json  preferences.json  skills.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ cat bug_report.json
+{
+"id": 2
+  "name": "Anton"
+  "age": 24
+
+  "phone number": 12345678
+
+}
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$
+```
