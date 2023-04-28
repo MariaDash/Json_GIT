@@ -7,10 +7,6 @@ I go to repository page--> Code --> Local and copy its link. And here two option
 You can copy by HTTPS( unsecure without password) or SSH (need specific configuration and it is secure and always ask password).. I copy via HTTPS.
 On PC I go to my folder "Json", right click "Gitbash Here" and open a terminal Gitbash in this folder.
 ```
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
-$mkdir Json
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
-$cd Json 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $git remote set-url origin https://github.com/MariaDash/Json.git
 
