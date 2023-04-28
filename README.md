@@ -35,7 +35,7 @@ $ git remote -v
 origin  https://github.com/MariaDash/Json.git (fetch)
 origin  https://github.com/MariaDash/Json.git (push)
 ```
-Because I have already another repository I must swith it. As you can see the repository is cloned to PC.
+
 ## 3. Create new.json file in the local repo.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
