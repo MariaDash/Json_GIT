@@ -1,8 +1,8 @@
 #  Json_GIT_Homework 1
-1-3 done
-## 4. Create an external repository called JSON on Github site.
+
+## 1. Create an external repository called JSON on Github site.
 I go to https://github.com/MariaDash, click "Repositories", click "New", make it Public, add README.md file, create repository.
-## 5. Clone repository to local PC
+## 2. Clone repository to local PC
 I go to repository page--> Code --> Local and copy its link. And here two options: 
 You can copy by HTTPS( unsecure without password) or SSH (need specific configuration and it is secure and always ask password).. I cpoy via HTTPS.
 On PC I go to my folder "Json", right click "Gitbash Here" and open a terminal Gitbash in this folder.
@@ -31,7 +31,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
 Because I have already another repository I must swith it. As you can see the repository is cloned to PC.
-## 6. Create new.json file in the local repo.
+## 3. Create new.json file in the local repo.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ vim new.json
@@ -60,7 +60,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 
 ```
-## 7.  Add a file for tracking
+## 4.  Add a file for tracking
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git add new.json
@@ -79,7 +79,7 @@ Changes to be committed:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 8. Do commit it.
+## 5. Do commit it.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git commit -m "new.json creation"
@@ -109,7 +109,7 @@ Date:   Thu Apr 27 17:04:49 2023 +0300
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 9. Send the file to remote repository
+## 6. Send the file to remote repository
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
@@ -126,7 +126,7 @@ To https://github.com/MariaDash/Json.git
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 10. Edit the content of the “new.json” file - write information about yourself (full name, age, number of pets, future desired salary). Everything is written in JSON format.
+## 7. Edit the content of the “new.json” file - write information about yourself (full name, age, number of pets, future desired salary). Everything is written in JSON format.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ vim new.json
@@ -146,7 +146,7 @@ $ cat new.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 11. Send the changes to remote repository
+## 8. Send the changes to remote repository
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git status
@@ -207,7 +207,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
 Note: Here I had a conflict between remote and local repository so I first needed to pull the remote version (and add a commit message) and after this I can push the local version to the remote repo.
-## 12. Create preferences.json file.
+## 9. Create preferences.json file.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ cat > preferences.json
@@ -220,7 +220,7 @@ README.md  new.json  preferences.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 13. In the preferences.json file, add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in JSON format.
+## 10. In the preferences.json file, add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in JSON format.
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ vim preferences.json
@@ -242,7 +242,7 @@ $ cat preferences.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 14. Create a file sklls.json add information about the skills that will be studied in the course in JSON format.
+## 11. Create a file sklls.json add information about the skills that will be studied in the course in JSON format.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
@@ -265,7 +265,7 @@ $ cat skills.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 15. Send 2 files at once to an external repository
+## 12. Send 2 files at once to an external repository
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git status
@@ -328,11 +328,11 @@ To https://github.com/MariaDash/Json.git
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 16. On the web interface, create a bug_report.json file.
-## 17. Make Commit changes (save) changes on the web interface.
-## 18. On the web interface, modify the bug_report.json file, add a bug report in JSON format.
-## 19. Make Commit changes (save) changes on the web interface.
-## 20. Synchronize external and local JSON repository
+## 13. On the web interface, create a bug_report.json file.
+## 14. Make Commit changes (save) changes on the web interface.
+## 15. On the web interface, modify the bug_report.json file, add a bug report in JSON format.
+## 16. Make Commit changes (save) changes on the web interface.
+## 17. Synchronize external and local JSON repository
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $ git pull
