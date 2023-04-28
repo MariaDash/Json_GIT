@@ -7,15 +7,8 @@ I go to repository page--> Code --> Local and copy its link. And here two option
 You can copy by HTTPS( unsecure without password) or SSH (need specific configuration and it is secure and always ask password).. I copy via HTTPS.
 On PC I go to my folder "GIT", right click "Gitbash Here" and open a terminal Gitbash in this folder.
 ```
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
-$git remote set-url origin https://github.com/MariaDash/Json.git
 
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
-$ git remote -v
-origin  https://github.com/MariaDash/Json.git (fetch)
-origin  https://github.com/MariaDash/Json.git (push)
-
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
 $ git clone https://github.com/MariaDash/Json.git
 Cloning into 'Json'...
 remote: Enumerating objects: 3, done.
@@ -23,12 +16,24 @@ remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
+$cd Json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
-$ ls
+$ ls 
 README.md
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
+```
+Note: if you need to change your working repository:
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$git remote set-url origin https://github.com/MariaDash/Json.git
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
+$ git remote -v
+origin  https://github.com/MariaDash/Json.git (fetch)
+origin  https://github.com/MariaDash/Json.git (push)
 ```
 Because I have already another repository I must swith it. As you can see the repository is cloned to PC.
 ## 3. Create new.json file in the local repo.
