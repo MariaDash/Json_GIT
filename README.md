@@ -247,7 +247,7 @@ $ cat preferences.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
 $
 ```
-## 11. Create a file sklls.json add information about the skills that will be studied in the course in JSON format.
+## 11. Create a file skills.json add information about the skills that will be studied in the course in JSON format.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/Json (main)
