@@ -8,7 +8,9 @@
   "password":"abc123"
    }
 "Pre-condition": "user is registered",
-"Env": "Windows 10, Google Chrome 112, Firefox, Opera",
+"Env": ["Windows 10, Google Chrome 112",
+       "Windows 10, Firefox",
+       "Windows 10, Opera"],
 "STR": {
       "1": "Navigate to the site.com",
       "2": "In the login block enter test data in 'login' and 'password' fields",
