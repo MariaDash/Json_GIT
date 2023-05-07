@@ -365,7 +365,7 @@ $ cat bug_report.json
 "ID":1,
 "Module": "LogIn",
 "Severity": "Critical",
-"Priority": "High"
+"Priority": "High",
 "Title": "'Login' button disabled when pushing it after adding valid login & password",
 "Test_Data":{
   "login":"Adam", 
