@@ -14,10 +14,11 @@
        "Windows 10, Firefox",
        "Windows 10, Opera"],
 "STR": {
-      "1": "Navigate to the site.com",
-      "2": "In the login block enter test data in 'login' and 'password' fields",
-      "3": "Push 'Login' button",
-      "4": "'Login' button is disabled. No warning message."
+      [ "1. Navigate to the site.com",
+        "2. In the login block enter test data in 'login' and 'password' fields",
+        "3. Push 'Login' button",
+        "4. 'Login' button is disabled. No warning message."
+        ]
   }
 "ER": "'Login' button is enabled, user log in.",
 "AR": "'Login' button is disabled. User can not log in.",
