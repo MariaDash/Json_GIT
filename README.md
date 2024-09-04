@@ -1,4 +1,4 @@
-#  Json_GIT
+#  Json_GIT   
 
 ## 1. Create an external repository called JSON on Github site.
 I go to https://github.com/MariaDash, click "Repositories", click "New", make it Public, add README.md file, create repository.
